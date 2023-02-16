@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# MP-Menu-Opener
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Should do interesting things with opening the server list while player is on server so u can connect to multiple servers or even with multiple accounts at one time, but produce a lot of bugs, but still useable (incorrectly)
