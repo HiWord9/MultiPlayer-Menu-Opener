@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "mp-menu-opener",
+  "version": "${version}",
+
+  "name": "Multiplayer Menu Opener",
+  "description": "Adds a button to the pause menu that will open multiplayer menu [M]. This means that u will not be disconnected from the server you are on, you will be able to connect to multiple server at one time. Your character will load chunks where he is standing, it's like you are afk.\nBetter experience with mods that can change your account right in game (In-game account switcher), so you will be able to connect to one server from multiple accounts at one time, may work incorrect with pirate accounts/servers. Chat will show any message from any server you are connected to. Also recommend to use mod that saves chat history (dcch).",
+  "authors": [
+    "HiWord9"
+  ],
+  "contact": {
+    "homepage": "https://github.com/HiWord9",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mp-menu-opener/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.HiWord9.MPMenuOpener.MPMenuOpener"
+    ]
+  },
+  "mixins": [
+    "mp-menu-opener.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "In-game account switcher": "https://www.curseforge.com/minecraft/mc-mods/in-game-account-switcher",
+        "Dont Clear Chat History": "https://www.curseforge.com/minecraft/mc-mods/dont-clear-chat-history"
+      }
+    }
+  }
+}

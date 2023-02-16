@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.HiWord9.MPMenuOpener.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "MPMenuOpenerMixin",
+    "MPMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
